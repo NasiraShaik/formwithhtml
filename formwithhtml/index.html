@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registration Form</title>
+</head>
+<body>
+    <form>
+        <h1 align="center">Registration Form</h1>
+        <table align="center">
+            <tr>
+                <td>Name:</td>
+                <td><input type="text" id="username" placeholder="Enter Name" minlength="3" maxlength="15" required></td>
+            </tr>
+            <tr>
+                <td>Phone Number:</td>
+                <td><input type="tel" id="phonenumber" placeholder="Enter Phone Number"  required></td>
+            </tr>
+            <tr>
+                <td>Email:</td>
+                <td><input type="email" id="email" placeholder="Enter Email" required></td>
+            </tr>
+            <tr>
+                <td>Password:</td>
+                <td><input type="password" id="password" placeholder="Enter password" required></td>
+            </tr>
+            <tr>
+                <td>Gender:</td>
+                <td>
+                    <input type="radio" name="gender" >Male
+                    <input type="radio" name="gender" >Female
+                </td>
+            </tr>
+            <tr>
+                <td>Date of Birth:</td>
+                <td><input type="date" id="bday"></td>
+            </tr>
+            <tr>
+                <td>Education Qualifications:</td>
+                <td>
+                    <select>
+                        <option>Select Option</option>
+                        <option>SSC</option>
+                        <option>Intermediate</option>
+                        <option>B.Tech</option>
+                    </select>
+                </td>
+            </tr>
+            <tr>
+                <td>Hobbies:</td>
+                <td>
+                    <input type="checkbox">Singing
+                    <input type="checkbox">Dancing
+                    <input type="checkbox">Drawing
+                </td>
+            </tr>
+            <tr>
+                <td>Address:</td>
+                <td>
+                    <textarea row="5" col="17" placeholder="Address"></textarea>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <input type="submit" value="Submit">
+                </td>
+                <td>
+                    <input type="reset" value="Reset">
+                </td>
+            </tr>
+        </table>
+    </form>
+</body>
+</html>
